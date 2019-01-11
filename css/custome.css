@@ -1,0 +1,162 @@
+
+*{
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+
+body {
+	padding-top: 80px;
+}
+
+h3 {
+	margin: 0;
+}
+
+.color-black {
+	color:#000000;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+.navbar {
+	min-height: 80px;
+	border-radius: 0;
+	margin-bottom: 0;
+	border-bottom: solid 6px #DAA520;
+	box-shadow: 0 2px 10px 0 #00FFFF;
+}
+
+.navbar-brand {
+	padding: 0 15px;
+	height: 80px;
+	line-height: 80px;
+}
+
+.navbar-brand>img {
+	margin-top: 20px;
+	max-width: 150px;
+}
+
+.navbar-toogle {
+	margin-top: 23px;
+	padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li > a {
+		padding-top: 26.5px;
+		padding-bottom: 26.5px;
+		line-height: 27px;
+		font-weight: 400;
+		letter-spacing: 2px;
+	}
+}
+
+
+h1.title {
+	font-size: 2.5em;
+	font-weight: 300;
+	font-style: italic;
+	margin : 10;
+	margin-bottom: 15px;
+	letter-spacing: 5px;
+}
+
+#about {
+	background :#800000;
+	color : #000000	;
+}
+
+#about img, #fanart img {
+	widht: 80%;
+}
+
+
+ #about, #fanart, #myteam, #kontak, #kontaks {
+ 	padding: 50px 0;
+ }
+
+ #myteam {
+ 	background: #F0E68C;
+
+
+ }
+ #myteam img {
+ 	width: 200px;
+ 	border : solid 5px 	#DC143C;
+
+ }
+
+ #myteam-name {
+ 	padding: 10px;
+ 	color: 	#000000;
+ 	border : solid 5px 	#DC143C;
+ }
+
+
+ #fanart {
+ 	background: #F0E68C;
+
+ }
+
+ #fanart img {
+	width: 200px;
+ 	border : solid 5px 	#DC143C;
+
+ }
+ 	
+.fanart-title{
+ 	padding: 15px;
+ 	background: #800000;
+ 	height: 100%
+ }
+
+ .fanart-title h3{
+ 	font-size: 1em;
+ 	color: #FFFAFA;
+ }
+
+ .fanart h1{
+ 	font-size: 1em;
+ 	color:#FF1493;
+ }
+
+#kontaks{
+	color: #000000;
+ 	background: #B0E0E6;
+}
+
+ #kontak {
+ 	color: #000000;
+ 	background: #FFD700;
+ }
+
+ footer {
+ 	padding:15px 0;
+ 	background: #000000;
+ 	color: #e3e3e3;
+ 	font-weight: 500;
+ }
+
+
+ @media only screen and (max-width : 640px) {
+ 	.box-fanart {
+ 		margin-bottom: 20px;
+ }
+
+ #about img {
+ 	margin-bottom : 20px;
+ }
+
+ #about,#fanart,#myteam,#kontak,#kontaks {
+ 	padding: 30px 0;
+ 
+ }
+
+ 
+ #kontak {
+ 	text-align: center;
+ }
+
+}
